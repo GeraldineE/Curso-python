@@ -1,0 +1,12 @@
+## Instalamos pip
+
+>> python3 -m pip install -U pip
+
+
+## Instalamos los requerimientos 
+En los requerimientos es donde vamos a poner todas las librerias o paquetes
+
+que necesitamos en el proyecto.
+"""sh
+    >> pip install -r requirements.txt
+""
