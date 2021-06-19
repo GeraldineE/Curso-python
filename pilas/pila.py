@@ -38,6 +38,7 @@ print("El nuevo tamaño:", p.tamanio())
 # m.incluir('z')
 # m.inspeccionar()
 
+
 # m = Pila()
 # m.incluir('x')
 # m.incluir('y')
