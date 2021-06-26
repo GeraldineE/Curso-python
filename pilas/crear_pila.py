@@ -9,7 +9,7 @@ class Stack:
     
     # Metodo para insertar elementos a la pila
     def push(self, item): 
-        self.items.insert(0, item)
+        self.items.append(item)
     
     # Metodo para eliminar el ultimo elemento apilado
     def pop(self): 
@@ -23,9 +23,9 @@ class Stack:
 pila = Stack() 
  
 # ingresamos elementos a la pila
-pila.push('manzanas')
-pila.push('uvas')
-pila.push('peras')
+pila.push('primero que inserte')
+pila.push('segundo que inserte')
+pila.push('ultimo que inserte')
 
 # Mostramos los elementos de la pila
 pila.print_stack() 
