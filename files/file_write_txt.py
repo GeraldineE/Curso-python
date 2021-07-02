@@ -1,0 +1,5 @@
+file=open("Curso_python/archivos/archivo_escritura.txt","w") 
+file.write("Primer línea.\n") 
+file.write("Segunda línea.\n") 
+file.write("Tercer línea.\n") 
+file.close()

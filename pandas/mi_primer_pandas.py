@@ -20,3 +20,13 @@ print(mi_primer_df.loc[2])
 
 
 
+
+
+s = pd.Series(['Matemáticas', 'Historia', 'Economía', 'Programación', 'Inglés'],
+                 dtype='string')
+print(s)
+
+
+
+df = pd.DataFrame([['María', 18], ['Luis', 22], ['Carmen', 20]], columns=['Nombre', 'Edad'])
+print(df)
